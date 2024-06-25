@@ -1,11 +1,17 @@
 import React from "react";
-import { createRoot } from 'react-dom/client';
-import '../../../css/components/superuser-components/sidebar.css';
+import { createRoot } from "react-dom/client";
+import "../../../css/components/superuser-components/sidebar.css";
 
-function SideBar(){
-    return(
+function SideBar() {
+    return (
         <>
-            <h1>LA SIDEBAR</h1>
+            <aside>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Super Usuarios</li>
+                    <li>Corporativos</li>
+                </ul>
+            </aside>
         </>
     );
 }
