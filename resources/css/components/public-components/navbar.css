@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: aliceblue;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar li{
+    list-style: none;
+}
+
+.navbar_title {
+    flex: 1;
+    text-align: left;
+    font-size: 25px;
+}
+
+.navbar_items_center {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+
+.navbar_items_center .navbar_item {
+    margin: 0 15px;
+}
+
+.navbar_icons {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    font-size: 25px;
+}
+
+.navbar_icons .navbar_icon {
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

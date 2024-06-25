@@ -1,0 +1,31 @@
+
+.sidebar {
+    height: 100vh;
+    width: 250px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed;
+}
+.sidebar a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    text-align: left;
+    transition: background 0.3s;
+}
+.sidebar a:hover {
+    background-color: #575757;
+}
+.sidebar .title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}

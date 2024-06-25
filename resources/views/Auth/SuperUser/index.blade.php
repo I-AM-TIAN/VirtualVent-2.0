@@ -8,7 +8,6 @@
         @vite('resources/js/app.js')
     </head>
     <body>
-        <div id="loginform"></div>
-        
+        <div id="sidebar"></div>
     </body>
 </html>
