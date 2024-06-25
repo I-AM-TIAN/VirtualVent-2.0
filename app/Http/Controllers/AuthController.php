@@ -13,6 +13,11 @@ class AuthController extends Controller
         $users = DB::select("SELECT * FROM users WHERE tipo_usuario_id = 1");
         return response()->json($users);
     }
+    public function corporative(){
+        $users = DB::select("SELECT * FROM corporativos");
+        return response()->json($users);
+    }
+    
 
     public function login(Request $request)
     {

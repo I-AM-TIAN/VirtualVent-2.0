@@ -9,7 +9,7 @@ function SideBar() {
                 <div class="title">VirtualVent</div>
                 <a href="#home">Inicio</a>
                 <a href="/superusers">Super Usuarios</a>
-                <a href="#clients">Corporativos</a>
+                <a href="/corporative">Corporativos</a>
             </div>
         </>
     );
