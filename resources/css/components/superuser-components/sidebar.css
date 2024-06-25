@@ -1,7 +1,7 @@
 .sidebar {
-    height: 100vh;
+    height: 92vh;
     width: 250px;
-    background-color: #333;
+    background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
@@ -14,7 +14,7 @@
     text-decoration: none;
     color: white;
     width: 100%;
-    text-align: left;
+    text-align: center;
     transition: background 0.3s;
 }
 .sidebar a:hover {

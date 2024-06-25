@@ -6,16 +6,11 @@ function SideBar() {
     return (
         <>
             <div class="sidebar">
-        <div class="title">My Sidebar</div>
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#clients">Clients</a>
-        <a href="#contact">Contact</a>
-    </div>
-    <div class="content">
-        <h1>Welcome to My Website</h1>
-        <p>This is a sample content area to demonstrate the sidebar layout.</p>
-    </div>
+                <div class="title">VirtualVent</div>
+                <a href="#home">Inicio</a>
+                <a href="/superusers">Super Usuarios</a>
+                <a href="#clients">Corporativos</a>
+            </div>
         </>
     );
 }

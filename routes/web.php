@@ -17,3 +17,9 @@ Route::get('/admin', function () {
 Route::get('/corporative', function () {
     return view('auth.corporative.index');
 });
+
+Route::get('/api/users', [AuthController::class, "index"]);
+
+Route::get('/superusers', function () {
+    return view('auth.superuser.superusers');
+});

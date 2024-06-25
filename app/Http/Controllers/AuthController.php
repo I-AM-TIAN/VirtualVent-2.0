@@ -4,9 +4,16 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
+use App\Models\User;
 
 class AuthController extends Controller
 {
+
+    public function index(){
+        $users = DB::select("SELECT * FROM users WHERE tipo_usuario_id = 1");
+        return response()->json($users);
+    }
+
     public function login(Request $request)
     {
         // Comprobamos que el email y la contraseña han sido introducidos
